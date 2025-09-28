@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <div class="flex h-screen bg-zinc-800 justify-center items-center">
+        <div class="flex flex-col md:flex-row p-2 md:pd-4 bg-zinc-600 rounded-xl">
+            <img src="health.jpg" alt=""
+                class="h-48 object-fit rounded-xl md:rounded-l-xl
+                md:rounded-r-none transform hover:scale-95 duration-500 "
+            >
+
+            <div class="flex flex-col justify-center items-center p-4 md:pd:6 mt-2">
+                <h1 class="text-white font-semibold font-serif text-xl text-center md:text-left">
+                    Fitness track
+                </h1>
+
+                <p class="max-w-sm text-white text-sm text-center 
+                        md:text-left text-white">
+                    Hi, enter your gmail to get fitness health tips everyday.
+                    Improve your health with us
+                </p>
+
+                <div class="flex flex-col md:flex-row justify-between mt-2 w-full">
+                    <input type="text" placeholder="Enter your email"
+                        class="w-full h-8 p-2 text-left text-sm rounded-md bg-zinc-500 
+                              placeholder:text-white placeholder:md:text-left
+                              border border-zinc-700 border-2 focus:outline-none text-left">
+
+                    <button class="w-full h-8 mt-2 md:mt-0 md:ml-4 px-4 py-2 bg-lime-600 rounded-xl text-sm text-white font-bold
+                                    hover:bg-lime-700 duration-500">
+                        Click
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
