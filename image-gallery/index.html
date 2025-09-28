@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <div class="flex flex-col justify-center items-center min-h-screen w-full bg-gray-300">
+        <!-- Container -->
+        <div class="mt-8 bg-white shadow-xl rounded-lg p-6 md:p-16">
+            <!-- Navbar -->
+            <div class="flex flex-col space-y-6 items-center justify-start md:flex-row md:space-y-0 md:space-x-4 md:justify-end md:items-center">
+                <div class="group">
+                    <h5 class="text-gray-600 font-medium group-hover:font-bold cursor-pointer">Vector</h5>
+                    <div class="border border-b-2 border-gray-500 rounded-xl opacity-0 group-hover:opacity-100
+                        transition-opacity duration-300"></div>
+                </div>
+
+                <div class="group">
+                    <h5 class="text-gray-600 font-medium group-hover:font-bold cursor-pointer">Illustration</h5>
+                    <div class="border border-b-2 border-gray-500 rounded-xl opacity-0 group-hover:opacity-100
+                        transition-opacity duration-300"></div>
+                </div>
+
+                <div class="group">
+                    <h5 class="text-gray-600 font-medium group-hover:font-bold cursor-pointer">Images</h5>
+                    <div class="border border-b-2 border-gray-500 rounded-xl opacity-0 group-hover:opacity-100
+                        transition-opacity duration-300"></div>
+                </div>
+
+                <div class="group">
+                    <h5 class="text-gray-600 font-medium group-hover:font-bold cursor-pointer">Icons</h5>
+                    <div class="border border-b-2 border-gray-500 rounded-xl opacity-0 group-hover:opacity-100
+                        transition-opacity duration-300"></div>
+                </div>
+            </div>
+
+            <!-- Search bar and Upload button -->
+            <div class="w-full mt-10 flex flex-col items-center justify-start md:flex-row md:justify-between md:items-center mx-2">
+                <input type="search" name="" id="" placeholder="Search image"
+                class="mb-4 md:mb-0 md:mr-4 bg-zinc-50 px-2 py-2 border-0 border-b-2 border-gray-400 placeholder:text-zinc-400"
+                >
+                <button class="bg-gray-700 px-4 py-2 rounded-xl text-white font-medium hover:bg-gray-900
+                  transition-colors duration-1000 hover:scale-105 ">Upload </button>
+            </div>
+
+            <!-- Images Gallery -->
+             <div class="grid grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-10 mt-10">
+                <div class="h-48 w-48 md:h-64 md:w-64 rounded-xl overflow-hidden relative group">
+                    <img src="images/image1.jpg" alt="image1" class="w-full h-full object-cover group-hover:scale-105">
+                    <p class="absolute bg-gray-500 w-full py-4 bottom-0 text-center opacity-0 group-hover:opacity-60">My favourites</p>
+                </div>
+
+
+                <div class="h-48 w-48 md:h-64 md:w-64 rounded-xl overflow-hidden relative group">
+                    <img src="images/image2.jpg" alt="image1" class="w-full h-full object-cover group-hover:scale-105">
+                    <p class="absolute bg-gray-500 w-full py-4 bottom-0 text-center opacity-0 group-hover:opacity-60">My favourites</p>
+                </div>
+                
+                
+                <div class="h-48 w-48 md:h-64 md:w-64 rounded-xl overflow-hidden relative group">
+                    <img src="images/image3.jpg" alt="image1" class="w-full h-full object-cover group-hover:scale-105">
+                    <p class="absolute bg-gray-500 w-full py-4 bottom-0 text-center opacity-0 group-hover:opacity-60">My favourites</p>
+                </div>
+                
+                
+                <div class="h-48 w-48 md:h-64 md:w-64 rounded-xl overflow-hidden relative group">
+                    <img src="images/image4.jpg" alt="image1" class="w-full h-full object-cover group-hover:scale-105">
+                    <p class="absolute bg-gray-500 w-full py-4 bottom-0 text-center opacity-0 group-hover:opacity-60">My favourites</p>
+                </div>
+                
+                
+                <div class="h-48 w-48 md:h-64 md:w-64 rounded-xl overflow-hidden relative group">
+                    <img src="images/image5.jpg" alt="image1" class="w-full h-full object-cover group-hover:scale-105">
+                    <p class="absolute bg-gray-500 w-full py-4 bottom-0 text-center opacity-0 group-hover:opacity-60">My favourites</p>
+                </div>
+                
+                
+                <div class="h-48 w-48 md:h-64 md:w-64 rounded-xl overflow-hidden relative group">
+                    <img src="images/image6.jpg" alt="image1" class="w-full h-full object-cover group-hover:scale-105">
+                    <p class="absolute bg-gray-500 w-full py-4 bottom-0 text-center opacity-0 group-hover:opacity-60">My favourites</p>
+                </div>
+             </div>
+
+
+
+
+        </div>
+
+
+    </div>
+    
+</body>
+</html>
