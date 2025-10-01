@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Modal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="flex flex-row justify-center items-center min-w-full min-h-screen bg-green-100 p-8 md:p-20">
+        <div class="absolute flex flex-row justify-center items-center ">
+            <div class="rounded-l-xl bg-white p-8 md:p-16 flex flex-col justify-center items-center md:items-start shadow-xl">
+                <!-- Title -->
+                <h4 class="text-2xl font-bold font-serif">Log In</h4>
+                
+                <!-- Message -->
+                <p class="max-w-sm font-extralight mt-4">Login to your account to uplaod or download pictures,videos or music.</p>
+
+                <!-- input for email -->
+                <input type="text" placeholder="Enter your email" 
+                    class="mt-8 w-full px-4 py-2 border-2 border-gray-300 rounded-lg placeholder:font-medium placeholder:text-gray-400"
+                >
+
+                <!-- Forget Password Next Button -->
+                <div class="mt-6 flex justify-between items-center w-full">
+                    <div class="text-sm text-indigo-500">Forgot Password?</div>
+                    <button class="px-4 py-2 bg-indigo-700 text-white font-medium rounded-lg transition hover:-translate-y-0.5">Next</button>
+                </div>
+
+                <!-- Border and login with -->
+                <div class="mt-4 w-full border border-t-1 border-gray-300 rounded-sm"></div>
+                <div class="mt-2 w-full flex flex-row justify-center items-center">
+                    <p class="text-xs text-gray-400">Or login in with</p>
+            </div>
+
+                <!-- Login using Facebook and Google -->
+                <div class="mt-4 flex flex-col space-y-2 justify-center align-center w-full md:flex-row md:space-y-0 md:space-x-4 md:justify-evenly">
+                    <div class="md:w-1/2 rounded-sm flex justify-center items-center space-x-3 px-4 py-2 border border-gray-400">
+                        <img src="images/facebook.png" alt="Facebook" class="w-6 h-6">
+                        <p>Facebook</p>
+                    </div>
+                    <div class="md:w-1/2 rounded-sm flex justify-center items-center space-x-3 px-4 py-2 border border-gray-400">
+                        <img src="images/google.png" alt="Google" class="w-6 h-6">
+                        <p>Google</p>
+                    </div> 
+                </div>
+
+            </div>
+
+            <img src="images/image.jpg" alt="" class="w-[292px] hidden md:block">
+
+            <div class="absolute top-5 right-5 flex justify-center items-center w-8 h-8 bg-gray-300 text-black rounded-full 
+                shadow-sm hover:shadow-lg transition hover:-translate-y-0.5 duration-300 md:bg-white "
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+        
+            </div>
+
+        </div>
+        
+        
+
+
+        </div>
+    </div>
+
+
+</body>
+</html>
